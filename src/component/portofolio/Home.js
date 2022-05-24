@@ -5,6 +5,10 @@ import sabrina from "../asset/profil/sabrina.png";
 import "../template/style.css";
 import About from "./About";
 import Line from "./Line";
+import Header from "./voda/Header";
+import AboutVoda from "./voda/About";
+import SkillVoda from "./voda/Skill";
+import ContactVoda from "./voda/Contact";
 
 const Home = () => {
   return (
@@ -43,8 +47,8 @@ const Home = () => {
                   style={{ width: "300px" }}
                 />
                 <a
-                  className="btn btn-secondary mt-2"
-                  style={{ width: "300px" }}
+                  className="btn buttonColor text-white mt-2"
+                  style={{ width: "300px" , outline : "2px solid #00A8CC" }}
                   href="/"
                 >
                   Sabrina Utami
@@ -55,6 +59,11 @@ const Home = () => {
         </div>
       </div>
       <About/>
+      <Line/>
+      <Header/>
+      <AboutVoda/>
+      <SkillVoda/>
+      <ContactVoda/>
       <Line/>
     </>
   );
