@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:wght@900&display=swap');
+
+.bgprofil {
+    background-image: linear-gradient(180deg,#0C7B93 ,#00A8CC);
+}
+
+.bg1 {
+    background-image: linear-gradient(180deg, #00A8CC,#0C7B93);
+}
+
+.bg2 {
+    background-image: linear-gradient(180deg, #0C7B93,#27496D );
+}
+
+.bg3 {
+    background-image: linear-gradient();
+}
+
+.bg4 {
+    background-image: linear-gradient();
+}
+
+.bg5 {
+    background-image: linear-gradient();
+}
+
+.buttonColor:hover {
+    background-color: #00A8CC;
+}
