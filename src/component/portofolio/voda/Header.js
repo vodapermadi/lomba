@@ -5,8 +5,8 @@ import voda from "../../asset/profil/vodapermadi.png";
 const Header = () => {
   return (
     <>
-      <div className="bg3 py-5" style={{ fontFamily: "Nunito,sans-serif" }}>
-        <div className="container py-5" id="voda">
+      <div className="bg3 py-5" style={{ fontFamily: "Nunito,sans-serif" }} id="voda" >
+        <div className="container py-5">
           <div className="row justify-content-center py-5">
             <div className="col-md-12 text-center">
               <p>

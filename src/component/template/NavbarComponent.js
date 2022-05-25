@@ -16,6 +16,7 @@ const NavbarComponent = () => {
                 <Nav.Link href="#home" className="text-white fw-bold fs-4">Home</Nav.Link>
                 <Nav.Link href="#about" className="text-white fw-bold fs-4">About</Nav.Link>
                 <Nav.Link href="#voda" className="text-white fw-bold fs-4">Voda</Nav.Link>
+                <Nav.Link href="#sabrina" className="text-white fw-bold fs-4">Sabrina</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

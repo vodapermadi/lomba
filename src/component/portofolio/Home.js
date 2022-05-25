@@ -9,6 +9,9 @@ import Header from "./voda/Header";
 import AboutVoda from "./voda/About";
 import SkillVoda from "./voda/Skill";
 import ContactVoda from "./voda/Contact";
+import HeaderSabrina from "./sabrina/Header";
+import AboutSabrina from "./sabrina/About";
+import ContactSabrina from "./sabrina/Contact";
 
 const Home = () => {
   return (
@@ -32,7 +35,7 @@ const Home = () => {
                 <a
                   className="btn buttonColor text-white mt-2"
                   style={{ width: "300px" , outline : "2px solid #00A8CC" }}
-                  href="/"
+                  href="#voda"
                 >
                   Voda Permadi
                 </a>
@@ -49,7 +52,7 @@ const Home = () => {
                 <a
                   className="btn buttonColor text-white mt-2"
                   style={{ width: "300px" , outline : "2px solid #00A8CC" }}
-                  href="/"
+                  href="#sabrina"
                 >
                   Sabrina Utami
                 </a>
@@ -65,6 +68,9 @@ const Home = () => {
       <SkillVoda/>
       <ContactVoda/>
       <Line/>
+      <HeaderSabrina/>
+      <AboutSabrina/>
+      <ContactSabrina/>
     </>
   );
 };

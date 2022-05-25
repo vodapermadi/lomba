@@ -9,7 +9,7 @@
 }
 
 .bgLine {
-    background-image: linear-gradient(180deg, #27496D,white,#0C7B93);
+    background-image: linear-gradient(180deg, #27496D,rgba(89, 89, 89, 0.702),#0C7B93);
 }
 
 .bgNavbar {
