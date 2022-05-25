@@ -5,8 +5,8 @@ import ig from "../../asset/brands/Vector-1.png"
 const ContactSabrina = () => {
   return (
     <>
-      <div className="bgContact py-5">
-        <div className="container py-5">
+      <div className="bgContact pt-5">
+        <div className="container pt-5">
           <div className="row justify-content-center text-white" style={{ padding : "50px 100px 250px" }}>
             <div className="col-md-12 text-center py-4">
               <h1>Contact</h1>

@@ -10,7 +10,7 @@ const Header = () => {
           <div className="row justify-content-center py-5">
             <div className="col-md-12 text-center">
               <p>
-                <h4 className="text-white fw-bold">Front End Developer</h4>
+                <h4 className="text-white fw-bold" data-aos={"fade-down"} data-aos-duration={"2500"} >Front End Developer</h4>
                 <img
                   src={voda}
                   style={{
@@ -19,8 +19,10 @@ const Header = () => {
                     backgroundColor: "rgba(0, 0, 0, 0.4)",
                   }}
                   className="shadow"
+                  data-aos={"zoom-in"}
+                  data-aos-duration={"1500"}
                 />
-                <h4 className="text-white mt-3">Philipus Voda Permadi</h4>
+                <h4 className="text-white mt-3" data-aos={"fade-up"} data-aos-duration={"2500"} >Philipus Voda Permadi</h4>
               </p>
             </div>
           </div>
