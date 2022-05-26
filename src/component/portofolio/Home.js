@@ -21,62 +21,28 @@ const Home = () => {
   return (
     <>
       <NavbarComponent />
-      <div className="bg1 py-5" style={{ fontFamily: "Nunito,sans-serif" }}>
+      <div
+        className="bg1 py-5"
+        style={{ fontFamily: "Nunito,sans-serif" }}
+      >
         <div
-          className="container px-3 py-5 text-center"
-          style={{ padding: "100px" }}
-          id="home"
-          data-aos={"fade-right"}
-          data-aos-duration={"2000"}
+          className="container text-center bgprofil py-5 mt-5 text-white"
+          style={{ borderRadius: "20px" }}
         >
-              <div data-aos={"fade-left"}>
-                <h1>Name-Team</h1>
-                <h3>here are the members of the team-name</h3>
-              </div>
-          <div
-            className="row shadow justify-content-center px-5 bgprofil"
-            style={{ borderRadius: "30px" }}
-          >
-            <div
-              className="col mx-2 mb-5 shadow text-center"
-              data-aos={"fade-up"}
-              data-aos-duration={"3000"}
-              style={{ borderRadius: "20px" }}
-            >
-              <h5 className="mb-2 text-white fw-bold">Front-End Dev</h5>
-              <img
-                src={voda}
-                alt="vodapermadi"
-                style={{ width: "300px" }}
-                className="img"
-              />
-              <a
-                className="btn buttonColor text-white mt-2"
-                style={{ width: "300px", outline: "2px solid #00A8CC" }}
-                href="#voda"
-              >
-                Voda Permadi
-              </a>
+          <h1>TeamName</h1>
+          <h4>Here are the members of the TeamName</h4>
+          <div className="row justify-content-center text-center py-4">
+            <div className="col text-center shadow mx-2 py-4">
+              <p>
+                <img src={voda} alt="vodapermadi" style={{ width: "300px", borderRadius: "20px" }}  />
+              </p>
+                <a href="#voda" className="btn buttonColor text-white" style={{ width : "300px", outline: "2px solid #00A8CC"}} >Voda Permadi</a>
             </div>
-            <div
-              className="col mx-2 mb-5 shadow py-4 px-2 text-center"
-              data-aos={"fade-up"}
-              data-aos-duration={"3000"}
-            >
-              <h5 className="mb-2 text-white fw-bold">UI/UX designer</h5>
-              <img
-                src={sabrina}
-                alt="sabrina"
-                className="img"
-                style={{ width: "300px" }}
-              />
-              <a
-                className="btn buttonColor text-white mt-2"
-                style={{ width: "300px", outline: "2px solid #00A8CC" }}
-                href="#sabrina"
-              >
-                Sabrina Utami
-              </a>
+            <div className="col text-center shadow mx-2 p-4">
+              <p>
+                <img src={sabrina} alt="sabrinautami" className="img" style={{ width: "300px", borderRadius:"20px" }} />
+              </p>
+                <a href="#sabrina" className="btn buttonColor text-white" style={{ width:"300px", outline: "2px solid #00A8CC" }}>Sabrina Utami</a>
             </div>
           </div>
         </div>
