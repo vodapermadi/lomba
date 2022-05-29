@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lomba/static/css/main.6daf469f.css",
-    "main.js": "/lomba/static/js/main.43a0bca3.js",
+    "main.js": "/lomba/static/js/main.948fc5dc.js",
     "static/media/php.png": "/lomba/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/sabrina.png": "/lomba/static/media/sabrina.811bd35c1df1ff1d57eb.png",
     "static/media/vodapermadi.png": "/lomba/static/media/vodapermadi.7973b00add7aa79ff233.png",
@@ -11,10 +11,10 @@
     "static/media/js.png": "/lomba/static/media/js.7b7d39612cf606d09047.png",
     "index.html": "/lomba/index.html",
     "main.6daf469f.css.map": "/lomba/static/css/main.6daf469f.css.map",
-    "main.43a0bca3.js.map": "/lomba/static/js/main.43a0bca3.js.map"
+    "main.948fc5dc.js.map": "/lomba/static/js/main.948fc5dc.js.map"
   },
   "entrypoints": [
     "static/css/main.6daf469f.css",
-    "static/js/main.43a0bca3.js"
+    "static/js/main.948fc5dc.js"
   ]
 }
